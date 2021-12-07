@@ -1,0 +1,30 @@
+html {
+  --color: #bdf797;
+}
+
+body {
+  background-color: rgb(51, 50, 50);
+  color: var(--color);
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+}
+div {
+  font: caption;
+  font-size: 3rem;
+  font-weight: normal;
+  line-height: 3rem;
+  border: 0.5rem double var(--color);
+}
+
+@media (min-width: 700px) {
+  html {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 1000px) {
+  html {
+    font-size: 45px;
+  }
+}
